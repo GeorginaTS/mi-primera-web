@@ -1,0 +1,65 @@
+/*ESTILOS DE RESET*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+/*Globals*/
+body{
+    background: #C2DBDB;
+    background-image: url(/img/453354-PF8X7J-378.jpg);
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+}
+
+/*LAYOUT*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.container1{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(/img/undraw_farm_girl_dnpe.svg);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    overflow:visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #E6E6E6;
+    overflow:visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: black;
+}
+.container2 span{
+    font-size: 18px;
+    color: #00BFA6;
+    font-weight: bold;
+}
